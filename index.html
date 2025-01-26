@@ -4,23 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scientific Calculator</title>
-    <style>
-        /* CSS Styling (same as before) */
-        body { font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .calculator { background: #2c3e50; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); width: 400px; padding: 20px; }
-        .display { background: #34495e; border-radius: 10px; padding: 15px; margin-bottom: 20px; text-align: right; }
-        .display input { width: 100%; border: none; background: transparent; color: #ecf0f1; font-size: 2em; text-align: right; outline: none; }
-        .history { background: #34495e; border-radius: 10px; padding: 10px; margin-bottom: 20px; color: #ecf0f1; font-size: 1.2em; height: 50px; overflow-y: auto; }
-        .buttons { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
-        button { background: #34495e; border: none; border-radius: 10px; color: #ecf0f1; font-size: 1.2em; padding: 15px; cursor: pointer; transition: background 0.3s, transform 0.1s; }
-        button:hover { background: #3b4a5e; }
-        button:active { transform: scale(0.95); }
-        .operator { background: #e67e22; }
-        .scientific { background: #3498db; }
-        .zero { grid-column: span 2; }
-        .mode-toggle { background: #27ae60; grid-column: span 2; }
-        .error { color: #e74c3c; }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="calculator">
